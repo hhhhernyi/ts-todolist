@@ -1,7 +1,11 @@
+import TodoListComponent from "./Components/TodolistComponent/TodoListComponent"
 
 const App = () => {
   return (
-    <div>To do List</div>
+    <div>
+      <h1>To do List</h1>
+      <TodoListComponent />
+    </div>
   )
 }
 
